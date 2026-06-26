@@ -1,5 +1,5 @@
 export const features = {
-  weeklyDigest: false,
+  weeklyDigest: true,
   releaseReadinessSummary: true,
   incidentPrivateNotes: false,
 };
