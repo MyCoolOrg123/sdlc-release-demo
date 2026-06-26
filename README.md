@@ -1,12 +1,17 @@
-# SDLC Release Demo
+# SDLC Release
 
-A private repository for testing "idea to pull request" and release-readiness
-workflows from Discord. It has requirements, feature flags, a release checklist,
-and seeded PRs that represent ready, risky, and draft changes.
+SDLC Release tracks product requirements, feature flags, and release readiness
+for moderator-facing workflow changes.
 
-## Bot scenarios to try
+## What lives here
 
-- Turn a Discord thread into a PR for the weekly digest command.
-- Ask what is merged, risky, or still needs review before release.
-- Ask for the release note draft from `release/2026-06-30.md`.
-- Ask which feature flag protects the digest rollout.
+- `docs/requirements/weekly-digest-command.md` captures the weekly digest scope.
+- `src/digest.ts` formats release and support items for review.
+- `src/featureFlags.ts` controls rollout of release and digest behavior.
+- `release/` and `risk-register.md` track readiness, blockers, and open review.
+
+## Release workflow
+
+1. Convert approved requirements into a branch and pull request.
+2. Keep risky changes behind feature flags until sign-off.
+3. Update the release note and risk register before the weekly readiness review.
