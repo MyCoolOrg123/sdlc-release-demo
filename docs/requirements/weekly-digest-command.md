@@ -16,3 +16,7 @@ open regressions, and shipped fixes without leaving Discord.
 
 - Do not post automatically without moderator confirmation.
 - Do not include private incident notes in public community servers.
+
+## Implementation note
+
+The formatter lives in `src/digest.ts` and remains gated by `features.weeklyDigest`.
