@@ -6,6 +6,8 @@ for moderator-facing workflow changes.
 ## What lives here
 
 - `docs/requirements/weekly-digest-command.md` captures the weekly digest scope.
+- `src/weeklyDigestCommand.ts` builds the moderator-only `/weekly-digest`
+  command response.
 - `src/digest.ts` formats release and support items for review.
 - `src/featureFlags.ts` controls rollout of release and digest behavior.
 - `release/` and `risk-register.md` track readiness, blockers, and open review.
