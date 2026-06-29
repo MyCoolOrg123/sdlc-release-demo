@@ -15,3 +15,5 @@ for moderator-facing workflow changes.
 1. Convert approved requirements into a branch and pull request.
 2. Keep risky changes behind feature flags until sign-off.
 3. Update the release note and risk register before the weekly readiness review.
+
+Random word: quokka.
